@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ServerlessCICDDemoStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-11m5zt4qzhv28"
+s3_prefix = "ServerlessCICDDemoStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
